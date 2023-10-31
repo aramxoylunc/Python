@@ -1,0 +1,8 @@
+
+def generate_random_matrix (rows,columns) :
+    matrix = [[random.randint(1,100) for i in range(columns)]for j in range(rows)]
+    return matrix
+
+print(generate_random_matrix (3,2))
+
+
